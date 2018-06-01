@@ -1,0 +1,18 @@
+---
+
+# VCenter Stuff
+#vcenter_username: admin@vsphere.local
+validate_certs: false
+vcenter_host: cbt-vcenter.cbt.local
+datacenter: DC
+cluster: CLUSTER
+datastore: Datastore1
+#inventory_name: CBT-TES-ANS
+cpu: 2
+mem_mb: 4096
+disk: 100
+server_ip: 192.168.1.19
+next_part: '3'
+esxi_host: esx1.domain.local
+vmtemplate: Debian-Template
+folder: PhoneSystems
