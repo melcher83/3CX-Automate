@@ -8,6 +8,8 @@ echo "deb http://downloads.3cx.com/downloads/3cxpbx/ /" | tee /etc/apt/sources.l
 apt-get update
 ```
 
+Currently all this does is spool up a VM and gets you to the web interface to configure the rest 
+
 # ansible-vmware-provisioning
 
 ## Background
