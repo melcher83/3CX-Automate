@@ -1,3 +1,13 @@
+Most of this is code from https://github.com/MindPointGroup/ansible-vmware-provisioning .
+
+This assumes you have a debian VM template, with VMware tools installed and have added the 3cx repositories on it.
+
+```
+wget -O- http://downloads.3cx.com/downloads/3cxpbx/public.key | apt-key add -
+echo "deb http://downloads.3cx.com/downloads/3cxpbx/ /" | tee /etc/apt/sources.list.d/3cxpbx.list
+apt-get update
+```
+
 # ansible-vmware-provisioning
 
 ## Background
